@@ -1,5 +1,5 @@
 {
-  "cwd": "/Users/realai/Desktop/RealAI project/my-app",
+  "cwd": "/Users/realai/Desktop/frontend-demo",
   "pkg": {
     "private": true,
     "author": "qingmei.liu <qingmei.liu@realai.ai>",
@@ -29,9 +29,35 @@
       "typescript": "^5.0.3"
     }
   },
-  "pkgPath": "/Users/realai/Desktop/RealAI project/my-app/package.json",
+  "pkgPath": "/Users/realai/Desktop/frontend-demo/package.json",
   "plugins": {
-    "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/servicePlugin": {
+    "./node_modules/@umijs/core/dist/service/servicePlugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/core/dist/service/servicePlugin.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/core/dist/service/servicePlugin",
+      "key": "servicePlugin"
+    },
+    "@umijs/preset-umi": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/index.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "@umijs/preset-umi",
+      "key": "umi"
+    },
+    "./node_modules/@umijs/max/dist/preset": {
       "config": {},
       "time": {
         "hooks": {},
@@ -39,38 +65,12 @@
       },
       "enableBy": "register",
       "type": "preset",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/servicePlugin.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/servicePlugin",
-      "key": "servicePlugin"
-    },
-    "@umijs/preset-umi": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 11
-      },
-      "enableBy": "register",
-      "type": "preset",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/index.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "@umijs/preset-umi",
-      "key": "umi"
-    },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/preset": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 8
-      },
-      "enableBy": "register",
-      "type": "preset",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/preset.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/preset",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/preset.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/max/dist/preset",
       "key": "preset"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/registerMethods": {
+    "./node_modules/@umijs/preset-umi/dist/registerMethods": {
       "config": {},
       "time": {
         "hooks": {
@@ -78,13 +78,13 @@
             0
           ]
         },
-        "register": 3
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/registerMethods.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/registerMethods",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/registerMethods.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/registerMethods",
       "key": "registerMethods"
     },
     "@umijs/did-you-know": {
@@ -95,16 +95,16 @@
             1
           ]
         },
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+did-you-know@1.0.4/node_modules/@umijs/did-you-know/dist/plugin.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/did-you-know/dist/plugin.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
       "id": "@umijs/did-you-know",
       "key": "umijsDidYouKnow"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/404/404": {
+    "./node_modules/@umijs/preset-umi/dist/features/404/404": {
       "config": {},
       "time": {
         "hooks": {
@@ -112,46 +112,16 @@
             0
           ]
         },
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/404/404.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/404/404",
-      "key": "404"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
-      "config": {},
-      "time": {
-        "hooks": {},
         "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
-      "key": "aiDev"
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/404/404.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/404/404",
+      "key": "404"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/appData": {
-      "config": {},
-      "time": {
-        "hooks": {
-          "modifyAppData": [
-            15
-          ]
-        },
-        "register": 18
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/appData",
-      "key": "appData"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
+    "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
       "config": {},
       "time": {
         "hooks": {},
@@ -159,12 +129,42 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
+      "key": "aiDev"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/appData/appData": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            7
+          ]
+        },
+        "register": 15
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/appData/appData",
+      "key": "appData"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
       "key": "umiInfo"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/check": {
+    "./node_modules/@umijs/preset-umi/dist/features/check/check": {
       "config": {},
       "time": {
         "hooks": {
@@ -175,16 +175,16 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/check.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/check",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/check/check.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/check/check",
       "key": "check"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/babel722": {
+    "./node_modules/@umijs/preset-umi/dist/features/check/babel722": {
       "config": {},
       "time": {
         "hooks": {
@@ -196,12 +196,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/babel722",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/check/babel722",
       "key": "babel722"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
+    "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
       "config": {},
       "time": {
         "hooks": {},
@@ -209,12 +209,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
       "key": "codeSplitting"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
+    "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
       "config": {},
       "time": {
         "hooks": {
@@ -222,13 +222,13 @@
             0
           ]
         },
-        "register": 6
+        "register": 4
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
       "key": "configPlugins"
     },
     "virtual: config-title": {
@@ -1057,10 +1057,10 @@
       "config": {
         "default": {
           "umi": "@@/exports",
-          "react": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react@18.3.1/node_modules/react",
-          "react-dom": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom",
-          "react-router": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react-router@6.3.0_react@18.3.1/node_modules/react-router",
-          "react-router-dom": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react-router-dom@6.3.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/react-router-dom"
+          "react": "/Users/realai/Desktop/frontend-demo/node_modules/react",
+          "react-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-dom",
+          "react-router": "/Users/realai/Desktop/frontend-demo/node_modules/react-router",
+          "react-router-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-router-dom"
         }
       },
       "type": "plugin",
@@ -1070,7 +1070,7 @@
         "register": 0
       }
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
+    "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1078,12 +1078,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
       "key": "crossorigin"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
+    "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
       "config": {},
       "time": {
         "hooks": {
@@ -1095,12 +1095,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
       "key": "depsOnDemand"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
+    "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1108,51 +1108,51 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
       "key": "devTool"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
+    "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 55
+        "register": 56
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
       "key": "esbuildHelperChecker"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esmi/esmi": {
+    "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 59
+        "register": 51
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
       "key": "esmi"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
+    "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 12
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
       "key": "exportStatic"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/favicons/favicons": {
+    "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons": {
       "config": {},
       "time": {
         "hooks": {
@@ -1160,29 +1160,29 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
       "key": "favicons"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
+    "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
       "key": "helmet"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/icons/icons": {
+    "./node_modules/@umijs/preset-umi/dist/features/icons/icons": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1190,49 +1190,53 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/icons/icons",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/icons/icons",
       "key": "icons"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mock/mock": {
+    "./node_modules/@umijs/preset-umi/dist/features/mock/mock": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 22
+        "hooks": {
+          "onStart": [
+            1
+          ]
+        },
+        "register": 23
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mock/mock",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mock/mock",
       "key": "mock"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "config",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
-      "key": "mpa"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/okam/okam": {
+    "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 0
       },
+      "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/okam/okam",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
+      "key": "mpa"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/okam/okam": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/okam/okam",
       "key": "okam"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
+    "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1240,25 +1244,25 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
       "key": "overrides"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
+    "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
       "key": "phantomDependency"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill": {
+    "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill": {
       "config": {},
       "time": {
         "hooks": {
@@ -1269,51 +1273,38 @@
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
       "key": "polyfill"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
+    "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
       "key": "publicPathPolyfill"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/prepare/prepare": {
+    "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
       "key": "prepare"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "config",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
-      "key": "routePrefetch"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise": {
+    "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1321,12 +1312,25 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
+      "key": "routePrefetch"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
       "key": "stagewise"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
+    "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1334,12 +1338,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
       "key": "terminal"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
+    "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1347,37 +1351,37 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
       "key": "tmpFiles"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
+    "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
       "key": "clientLoader"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps": {
+    "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 0
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
       "key": "routeProps"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ssr/ssr": {
+    "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1385,38 +1389,38 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
       "key": "ssr"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
+    "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
       "key": "configTypes"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/transform/transform": {
+    "./node_modules/@umijs/preset-umi/dist/features/transform/transform": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/transform/transform",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/transform/transform",
       "key": "transform"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport": {
+    "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1424,12 +1428,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
       "key": "lowImport"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/vite/vite": {
+    "./node_modules/@umijs/preset-umi/dist/features/vite/vite": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1437,75 +1441,49 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/vite/vite",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/vite/vite",
       "key": "vite"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
+    "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 3
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
       "key": "apiRoute"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
+    "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 13
+        "register": 14
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
       "key": "monorepoRedirect"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/test/test": {
+    "./node_modules/@umijs/preset-umi/dist/features/test/test": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/test/test.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/test/test",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/test/test.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/test/test",
       "key": "test"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "config",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
-      "key": "clickToComponent"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/legacy/legacy": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "config",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
-      "key": "legacy"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
+    "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1513,24 +1491,50 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
+      "key": "clickToComponent"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
+      "key": "legacy"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
       "key": "classPropertiesLoose"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/webpack/webpack": {
+    "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
       "key": "preset-umi:webpack"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/swc/swc": {
+    "./node_modules/@umijs/preset-umi/dist/features/swc/swc": {
       "config": {},
       "time": {
         "hooks": {
@@ -1542,24 +1546,24 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/swc/swc",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/swc/swc",
       "key": "swc"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ui/ui": {
+    "./node_modules/@umijs/preset-umi/dist/features/ui/ui": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 2
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ui/ui",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/ui/ui",
       "key": "ui"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mako/mako": {
+    "./node_modules/@umijs/preset-umi/dist/features/mako/mako": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1567,36 +1571,36 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mako/mako",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mako/mako",
       "key": "mako"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
+    "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 2
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
       "key": "hmrGuardian"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
+    "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
       "key": "routePreloadOnLoad"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/forget/forget": {
+    "./node_modules/@umijs/preset-umi/dist/features/forget/forget": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1604,12 +1608,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/forget/forget",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/forget/forget",
       "key": "forget"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
+    "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1617,297 +1621,57 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
       "key": "preset-umi:bundler"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/build": {
+    "./node_modules/@umijs/preset-umi/dist/commands/build": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/build.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/build",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/build.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/build",
       "key": "build"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/config/config": {
+    "./node_modules/@umijs/preset-umi/dist/commands/config/config": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 26
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/config/config",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/config/config",
       "key": "config"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
+    "./node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 19
-      },
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev",
-      "key": "dev"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/help": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/help.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/help",
-      "key": "help"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/lint": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/lint.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/lint",
-      "key": "lint"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/setup": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/setup.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/setup",
-      "key": "setup"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/deadcode": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/deadcode",
-      "key": "deadcode"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/version": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/version.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/version",
-      "key": "version"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/page": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/page",
-      "key": "generator:page"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/prettier": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
-      "key": "generator:prettier"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
-      "key": "generator:tsconfig"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/jest",
-      "key": "generator:jest"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
-      "key": "generator:tailwindcss"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/dva",
-      "key": "generator:dva"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/component": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/component",
-      "key": "generator:component"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/mock",
-      "key": "generator:mock"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
-      "key": "generator:cypress"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/api": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/api",
-      "key": "generator:api"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
-      "key": "generator:precommit"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/plugin": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/plugin",
-      "key": "command:plugin"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/verify-commit",
-      "key": "verifyCommit"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/preview": {
-      "config": {},
-      "time": {
-        "hooks": {},
+        "hooks": {
+          "modifyAppData": [
+            8
+          ],
+          "onStart": [
+            0
+          ]
+        },
         "register": 17
       },
-      "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/preview.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/preview",
-      "key": "preview"
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/dev/dev",
+      "key": "dev"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
+    "./node_modules/@umijs/preset-umi/dist/commands/help": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1915,9 +1679,256 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/help.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/help",
+      "key": "help"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/lint": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/lint.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/lint",
+      "key": "lint"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/setup": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/setup.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/setup",
+      "key": "setup"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/deadcode": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/deadcode",
+      "key": "deadcode"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/version": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/version.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/version",
+      "key": "version"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/page": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/page",
+      "key": "generator:page"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
+      "key": "generator:prettier"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
+      "key": "generator:tsconfig"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/jest",
+      "key": "generator:jest"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
+      "key": "generator:tailwindcss"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/dva",
+      "key": "generator:dva"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/component": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/component",
+      "key": "generator:component"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/mock",
+      "key": "generator:mock"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
+      "key": "generator:cypress"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/api": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/api",
+      "key": "generator:api"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
+      "key": "generator:precommit"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/plugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/plugin",
+      "key": "command:plugin"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/verify-commit",
+      "key": "verifyCommit"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/preview": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 15
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/preview.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/preview",
+      "key": "preview"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
       "key": "mfsu-cli"
     },
     "@umijs/plugin-run": {
@@ -1928,12 +1939,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugin-run@4.4.12/node_modules/@umijs/plugin-run/dist/index.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugin-run/dist/index.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
       "id": "@umijs/plugin-run",
       "key": "run"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/access": {
+    "./node_modules/@umijs/plugins/dist/access": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1941,26 +1952,26 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/access.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/access",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/access.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/access",
       "key": "access"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/analytics": {
+    "./node_modules/@umijs/plugins/dist/analytics": {
       "config": {
         "onChange": "reload"
       },
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/analytics.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/analytics",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/analytics.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/analytics",
       "key": "analytics"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/antd": {
+    "./node_modules/@umijs/plugins/dist/antd": {
       "config": {},
       "time": {
         "hooks": {
@@ -1974,38 +1985,38 @@
         "register": 3
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/antd.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/antd",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/antd.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/antd",
       "key": "antd"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/dva": {
+    "./node_modules/@umijs/plugins/dist/dva": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 5
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/dva.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/dva",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/dva.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/dva",
       "key": "dva"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/initial-state": {
+    "./node_modules/@umijs/plugins/dist/initial-state": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/initial-state.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/initial-state",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/initial-state.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/initial-state",
       "key": "initialState"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/layout": {
+    "./node_modules/@umijs/plugins/dist/layout": {
       "config": {
         "onChange": "regenerateTmpFiles"
       },
@@ -2025,25 +2036,25 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/layout.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/layout",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/layout.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/layout",
       "key": "layout"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/locale": {
+    "./node_modules/@umijs/plugins/dist/locale": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/locale.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/locale",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/locale.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/locale",
       "key": "locale"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/mf": {
+    "./node_modules/@umijs/plugins/dist/mf": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2051,12 +2062,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/mf.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/mf",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/mf.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/mf",
       "key": "mf"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/model": {
+    "./node_modules/@umijs/plugins/dist/model": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2064,12 +2075,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/model.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/model",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/model.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/model",
       "key": "model"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/moment2dayjs": {
+    "./node_modules/@umijs/plugins/dist/moment2dayjs": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2077,12 +2088,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/moment2dayjs.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/moment2dayjs",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/moment2dayjs.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/moment2dayjs",
       "key": "moment2dayjs"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun": {
+    "./node_modules/@umijs/plugins/dist/qiankun": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2090,88 +2101,62 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/qiankun.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun",
       "key": "qiankun"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/master": {
+    "./node_modules/@umijs/plugins/dist/qiankun/master": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/master.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/master",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/qiankun/master.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun/master",
       "key": "qiankun-master"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/slave": {
+    "./node_modules/@umijs/plugins/dist/qiankun/slave": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/slave.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/slave",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/qiankun/slave.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun/slave",
       "key": "qiankun-slave"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/react-query": {
+    "./node_modules/@umijs/plugins/dist/react-query": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/react-query.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/react-query",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/react-query.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/react-query",
       "key": "reactQuery"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/request": {
+    "./node_modules/@umijs/plugins/dist/request": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/request.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/request",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/request.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/request",
       "key": "request"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/styled-components": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "config",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/styled-components.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/styled-components",
-      "key": "styledComponents"
-    },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/tailwindcss": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "config",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/tailwindcss.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/tailwindcss",
-      "key": "tailwindcss"
-    },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/valtio": {
+    "./node_modules/@umijs/plugins/dist/styled-components": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2179,12 +2164,38 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/valtio.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/valtio",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/styled-components.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/styled-components",
+      "key": "styledComponents"
+    },
+    "./node_modules/@umijs/plugins/dist/tailwindcss": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/tailwindcss.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/tailwindcss",
+      "key": "tailwindcss"
+    },
+    "./node_modules/@umijs/plugins/dist/valtio": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/valtio.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/valtio",
       "key": "valtio"
     },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAlias": {
+    "./node_modules/@umijs/max/dist/plugins/maxAlias": {
       "config": {},
       "time": {
         "hooks": {
@@ -2192,46 +2203,50 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAlias.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAlias",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/plugins/maxAlias.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxAlias",
       "key": "maxAlias"
     },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAppData": {
+    "./node_modules/@umijs/max/dist/plugins/maxAppData": {
       "config": {},
       "time": {
         "hooks": {
           "modifyAppData": [
-            1
+            0
+          ]
+        },
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/plugins/maxAppData.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxAppData",
+      "key": "maxAppData"
+    },
+    "./node_modules/@umijs/max/dist/plugins/maxChecker": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "onCheckPkgJSON": [
+            0
           ]
         },
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAppData.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAppData",
-      "key": "maxAppData"
-    },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxChecker": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxChecker.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxChecker",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/plugins/maxChecker.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxChecker",
       "key": "maxChecker"
     },
-    "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/generatePlugin": {
+    "./node_modules/@umijs/core/dist/service/generatePlugin": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2239,14 +2254,14 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/generatePlugin.js",
-      "cwd": "/Users/realai/Desktop/RealAI project/my-app",
-      "id": "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/generatePlugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/core/dist/service/generatePlugin",
       "key": "generatePlugin"
     }
   },
   "presets": [],
-  "name": "setup",
+  "name": "dev",
   "args": {
     "_": []
   },
@@ -2282,7 +2297,7 @@
     ],
     "npmClient": "pnpm"
   },
-  "mainConfigFile": "/Users/realai/Desktop/RealAI project/my-app/.umirc.ts",
+  "mainConfigFile": "/Users/realai/Desktop/frontend-demo/.umirc.ts",
   "config": {
     "routeLoader": {
       "moduleType": "esm"
@@ -2302,14 +2317,14 @@
     "autoCSSModules": true,
     "alias": {
       "umi": "@@/exports",
-      "react": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react@18.3.1/node_modules/react",
-      "react-dom": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom",
-      "react-router": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react-router@6.3.0_react@18.3.1/node_modules/react-router",
-      "react-router-dom": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react-router-dom@6.3.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/react-router-dom",
-      "@": "/Users/realai/Desktop/RealAI project/my-app/src",
-      "@@": "/Users/realai/Desktop/RealAI project/my-app/src/.umi",
-      "regenerator-runtime": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/regenerator-runtime@0.13.11/node_modules/regenerator-runtime",
-      "antd": "/Users/realai/Desktop/RealAI project/my-app/node_modules/antd",
+      "react": "/Users/realai/Desktop/frontend-demo/node_modules/react",
+      "react-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-dom",
+      "react-router": "/Users/realai/Desktop/frontend-demo/node_modules/react-router",
+      "react-router-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-router-dom",
+      "@": "/Users/realai/Desktop/frontend-demo/src",
+      "@@": "/Users/realai/Desktop/frontend-demo/src/.umi",
+      "regenerator-runtime": "/Users/realai/Desktop/frontend-demo/node_modules/regenerator-runtime",
+      "antd": "/Users/realai/Desktop/frontend-demo/node_modules/antd",
       "@umijs/max": "@@/exports"
     },
     "antd": {},
@@ -3276,7 +3291,7 @@
       "absPath": "/home",
       "__content": "import Guide from '@/components/Guide';\nimport { trim } from '@/utils/format';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useModel } from '@umijs/max';\nimport styles from './index.less';\n\nconst HomePage: React.FC = () => {\n  const { name } = useModel('global');\n  return (\n    <PageContainer ghost>\n      <div className={styles.container}>\n        <Guide name={trim(name)} />\n      </div>\n    </PageContainer>\n  );\n};\n\nexport default HomePage;\n",
       "__isJSFile": true,
-      "__absFile": "/Users/realai/Desktop/RealAI project/my-app/src/pages/Home/index.tsx"
+      "__absFile": "/Users/realai/Desktop/frontend-demo/src/pages/Home/index.tsx"
     },
     "3": {
       "name": "权限演示",
@@ -3287,7 +3302,7 @@
       "absPath": "/access",
       "__content": "import { PageContainer } from '@ant-design/pro-components';\nimport { Access, useAccess } from '@umijs/max';\nimport { Button } from 'antd';\n\nconst AccessPage: React.FC = () => {\n  const access = useAccess();\n  return (\n    <PageContainer\n      ghost\n      header={{\n        title: '权限示例',\n      }}\n    >\n      <Access accessible={access.canSeeAdmin}>\n        <Button>只有 Admin 可以看到这个按钮</Button>\n      </Access>\n    </PageContainer>\n  );\n};\n\nexport default AccessPage;\n",
       "__isJSFile": true,
-      "__absFile": "/Users/realai/Desktop/RealAI project/my-app/src/pages/Access/index.tsx"
+      "__absFile": "/Users/realai/Desktop/frontend-demo/src/pages/Access/index.tsx"
     },
     "4": {
       "name": " CRUD 示例",
@@ -3298,15 +3313,15 @@
       "absPath": "/table",
       "__content": "import services from '@/services/demo';\nimport {\n  ActionType,\n  FooterToolbar,\n  PageContainer,\n  ProDescriptions,\n  ProDescriptionsItemProps,\n  ProTable,\n} from '@ant-design/pro-components';\nimport { Button, Divider, Drawer, message } from 'antd';\nimport React, { useRef, useState } from 'react';\nimport CreateForm from './components/CreateForm';\nimport UpdateForm, { FormValueType } from './components/UpdateForm';\n\nconst { addUser, queryUserList, deleteUser, modifyUser } =\n  services.UserController;\n\n/**\n * 添加节点\n * @param fields\n */\nconst handleAdd = async (fields: API.UserInfo) => {\n  const hide = message.loading('正在添加');\n  try {\n    await addUser({ ...fields });\n    hide();\n    message.success('添加成功');\n    return true;\n  } catch (error) {\n    hide();\n    message.error('添加失败请重试！');\n    return false;\n  }\n};\n\n/**\n * 更新节点\n * @param fields\n */\nconst handleUpdate = async (fields: FormValueType) => {\n  const hide = message.loading('正在配置');\n  try {\n    await modifyUser(\n      {\n        userId: fields.id || '',\n      },\n      {\n        name: fields.name || '',\n        nickName: fields.nickName || '',\n        email: fields.email || '',\n      },\n    );\n    hide();\n\n    message.success('配置成功');\n    return true;\n  } catch (error) {\n    hide();\n    message.error('配置失败请重试！');\n    return false;\n  }\n};\n\n/**\n *  删除节点\n * @param selectedRows\n */\nconst handleRemove = async (selectedRows: API.UserInfo[]) => {\n  const hide = message.loading('正在删除');\n  if (!selectedRows) return true;\n  try {\n    await deleteUser({\n      userId: selectedRows.find((row) => row.id)?.id || '',\n    });\n    hide();\n    message.success('删除成功，即将刷新');\n    return true;\n  } catch (error) {\n    hide();\n    message.error('删除失败，请重试');\n    return false;\n  }\n};\n\nconst TableList: React.FC<unknown> = () => {\n  const [createModalVisible, handleModalVisible] = useState<boolean>(false);\n  const [updateModalVisible, handleUpdateModalVisible] =\n    useState<boolean>(false);\n  const [stepFormValues, setStepFormValues] = useState({});\n  const actionRef = useRef<ActionType>();\n  const [row, setRow] = useState<API.UserInfo>();\n  const [selectedRowsState, setSelectedRows] = useState<API.UserInfo[]>([]);\n  const columns: ProDescriptionsItemProps<API.UserInfo>[] = [\n    {\n      title: '名称',\n      dataIndex: 'name',\n      tip: '名称是唯一的 key',\n      formItemProps: {\n        rules: [\n          {\n            required: true,\n            message: '名称为必填项',\n          },\n        ],\n      },\n    },\n    {\n      title: '昵称',\n      dataIndex: 'nickName',\n      valueType: 'text',\n    },\n    {\n      title: '性别',\n      dataIndex: 'gender',\n      hideInForm: true,\n      valueEnum: {\n        0: { text: '男', status: 'MALE' },\n        1: { text: '女', status: 'FEMALE' },\n      },\n    },\n    {\n      title: '操作',\n      dataIndex: 'option',\n      valueType: 'option',\n      render: (_, record) => (\n        <>\n          <a\n            onClick={() => {\n              handleUpdateModalVisible(true);\n              setStepFormValues(record);\n            }}\n          >\n            配置\n          </a>\n          <Divider type=\"vertical\" />\n          <a href=\"\">订阅警报</a>\n        </>\n      ),\n    },\n  ];\n\n  return (\n    <PageContainer\n      header={{\n        title: 'CRUD 示例',\n      }}\n    >\n      <ProTable<API.UserInfo>\n        headerTitle=\"查询表格\"\n        actionRef={actionRef}\n        rowKey=\"id\"\n        search={{\n          labelWidth: 120,\n        }}\n        toolBarRender={() => [\n          <Button\n            key=\"1\"\n            type=\"primary\"\n            onClick={() => handleModalVisible(true)}\n          >\n            新建\n          </Button>,\n        ]}\n        request={async (params, sorter, filter) => {\n          const { data, success } = await queryUserList({\n            ...params,\n            // FIXME: remove @ts-ignore\n            // @ts-ignore\n            sorter,\n            filter,\n          });\n          return {\n            data: data?.list || [],\n            success,\n          };\n        }}\n        columns={columns}\n        rowSelection={{\n          onChange: (_, selectedRows) => setSelectedRows(selectedRows),\n        }}\n      />\n      {selectedRowsState?.length > 0 && (\n        <FooterToolbar\n          extra={\n            <div>\n              已选择{' '}\n              <a style={{ fontWeight: 600 }}>{selectedRowsState.length}</a>{' '}\n              项&nbsp;&nbsp;\n            </div>\n          }\n        >\n          <Button\n            onClick={async () => {\n              await handleRemove(selectedRowsState);\n              setSelectedRows([]);\n              actionRef.current?.reloadAndRest?.();\n            }}\n          >\n            批量删除\n          </Button>\n          <Button type=\"primary\">批量审批</Button>\n        </FooterToolbar>\n      )}\n      <CreateForm\n        onCancel={() => handleModalVisible(false)}\n        modalVisible={createModalVisible}\n      >\n        <ProTable<API.UserInfo, API.UserInfo>\n          onSubmit={async (value) => {\n            const success = await handleAdd(value);\n            if (success) {\n              handleModalVisible(false);\n              if (actionRef.current) {\n                actionRef.current.reload();\n              }\n            }\n          }}\n          rowKey=\"id\"\n          type=\"form\"\n          columns={columns}\n        />\n      </CreateForm>\n      {stepFormValues && Object.keys(stepFormValues).length ? (\n        <UpdateForm\n          onSubmit={async (value) => {\n            const success = await handleUpdate(value);\n            if (success) {\n              handleUpdateModalVisible(false);\n              setStepFormValues({});\n              if (actionRef.current) {\n                actionRef.current.reload();\n              }\n            }\n          }}\n          onCancel={() => {\n            handleUpdateModalVisible(false);\n            setStepFormValues({});\n          }}\n          updateModalVisible={updateModalVisible}\n          values={stepFormValues}\n        />\n      ) : null}\n\n      <Drawer\n        width={600}\n        open={!!row}\n        onClose={() => {\n          setRow(undefined);\n        }}\n        closable={false}\n      >\n        {row?.name && (\n          <ProDescriptions<API.UserInfo>\n            column={2}\n            title={row?.name}\n            request={async () => ({\n              data: row || {},\n            })}\n            params={{\n              id: row?.name,\n            }}\n            columns={columns}\n          />\n        )}\n      </Drawer>\n    </PageContainer>\n  );\n};\n\nexport default TableList;\n",
       "__isJSFile": true,
-      "__absFile": "/Users/realai/Desktop/RealAI project/my-app/src/pages/Table/index.tsx"
+      "__absFile": "/Users/realai/Desktop/frontend-demo/src/pages/Table/index.tsx"
     },
     "ant-design-pro-layout": {
       "id": "ant-design-pro-layout",
       "path": "/",
-      "file": "/Users/realai/Desktop/RealAI project/my-app/src/.umi/plugin-layout/Layout.tsx",
+      "file": "/Users/realai/Desktop/frontend-demo/src/.umi/plugin-layout/Layout.tsx",
       "absPath": "/",
       "isLayout": true,
-      "__absFile": "/Users/realai/Desktop/RealAI project/my-app/src/.umi/plugin-layout/Layout.tsx"
+      "__absFile": "/Users/realai/Desktop/frontend-demo/src/.umi/plugin-layout/Layout.tsx"
     }
   },
   "apiRoutes": {},
@@ -3326,14 +3341,14 @@
   },
   "react": {
     "version": "18.3.1",
-    "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react@18.3.1/node_modules/react"
+    "path": "/Users/realai/Desktop/frontend-demo/node_modules/react"
   },
   "react-dom": {
     "version": "18.3.1",
-    "path": "/Users/realai/Desktop/RealAI project/my-app/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom"
+    "path": "/Users/realai/Desktop/frontend-demo/node_modules/react-dom"
   },
   "appJS": {
-    "path": "/Users/realai/Desktop/RealAI project/my-app/src/app.ts",
+    "path": "/Users/realai/Desktop/frontend-demo/src/app.tsx",
     "exports": [
       "getInitialState",
       "layout"
@@ -3344,19 +3359,24 @@
   "globalJS": [],
   "overridesCSS": [],
   "bundler": "webpack",
-  "git": {},
+  "git": {
+    "originUrl": "https://git.real-ai.cn/psc/fe/frontend-demo.git"
+  },
   "framework": "react",
   "typescript": {
     "tsVersion": "5.9.2",
     "tslibVersion": "2.8.1"
   },
   "faviconFiles": [],
+  "port": 8001,
+  "host": "0.0.0.0",
+  "ip": "10.1.0.161",
   "antd": {
-    "pkgPath": "/Users/realai/Desktop/RealAI project/my-app/node_modules/antd",
+    "pkgPath": "/Users/realai/Desktop/frontend-demo/node_modules/antd",
     "version": "5.27.3"
   },
   "pluginLayout": {
-    "pkgPath": "/Users/realai/Desktop/RealAI project/my-app/node_modules/@ant-design/pro-components",
+    "pkgPath": "/Users/realai/Desktop/frontend-demo/node_modules/@ant-design/pro-components",
     "version": "2.8.10"
   }
 }
