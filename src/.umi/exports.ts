@@ -5,11 +5,9 @@
 export { defineApp } from './core/defineApp'
 export type { RuntimeConfig } from './core/defineApp'
 // plugins
-export { Access, useAccess, useAccessMarkedRoutes } from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-access';
 export { Provider, useModel } from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-model';
 export { useRequest, UseRequestProvider, request, getRequestInstance } from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-request';
 // plugins types.d.ts
-export * from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-access/types.d';
 export * from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-antd/types.d';
 export * from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-layout/types.d';
 export * from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-request/types.d';
