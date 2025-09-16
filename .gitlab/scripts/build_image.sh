@@ -7,6 +7,7 @@ function docker_build() {
   tag="${DOCKER_TAG}_${short_sha}"
   msg_info "${CI_PROJECT_NAME} 镜像地址: $DOCKER_IMAGE:$tag"
   msg_info "${CI_PROJECT_NAME} 镜像tag: $tag"
+  echo "$DOCKER_PASS"
   docker login $DOCKER_IMAGE -u $DOCKER_USERNAME -p "$DOCKER_PASS"
 
   docker build \
