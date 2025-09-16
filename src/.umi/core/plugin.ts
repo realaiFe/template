@@ -3,9 +3,10 @@
 // DO NOT CHANGE IT MANUALLY!
 import * as Plugin_0 from '/Users/realai/Desktop/frontend-demo/src/app.tsx';
 import * as Plugin_1 from '@@/core/helmet.ts';
-import * as Plugin_2 from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-initialState/runtime.tsx';
-import * as Plugin_3 from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-layout/runtime.tsx';
-import * as Plugin_4 from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-model/runtime.tsx';
+import * as Plugin_2 from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-access/runtime.tsx';
+import * as Plugin_3 from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-initialState/runtime.tsx';
+import * as Plugin_4 from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-layout/runtime.tsx';
+import * as Plugin_5 from '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-model/runtime.tsx';
 import { PluginManager } from 'umi';
 
 function __defaultExport (obj) {
@@ -26,14 +27,18 @@ export function getPlugins() {
     },
     {
       apply: Plugin_2,
-      path: process.env.NODE_ENV === 'production' ? void 0 : '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-initialState/runtime.tsx',
+      path: process.env.NODE_ENV === 'production' ? void 0 : '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-access/runtime.tsx',
     },
     {
       apply: Plugin_3,
-      path: process.env.NODE_ENV === 'production' ? void 0 : '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-layout/runtime.tsx',
+      path: process.env.NODE_ENV === 'production' ? void 0 : '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-initialState/runtime.tsx',
     },
     {
       apply: Plugin_4,
+      path: process.env.NODE_ENV === 'production' ? void 0 : '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-layout/runtime.tsx',
+    },
+    {
+      apply: Plugin_5,
       path: process.env.NODE_ENV === 'production' ? void 0 : '/Users/realai/Desktop/frontend-demo/src/.umi/plugin-model/runtime.tsx',
     },
   ];

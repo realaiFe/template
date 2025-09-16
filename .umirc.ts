@@ -1,5 +1,5 @@
 import { defineConfig } from '@umijs/max';
-import proxy from './configs/proxy';
+import proxy from './config/proxy';
 
 export default defineConfig({
   antd: {},
