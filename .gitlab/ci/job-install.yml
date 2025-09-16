@@ -17,4 +17,5 @@ install_depends:
     paths:
       - node_modules/
       - .yarn
+      - .pnpm-store
     policy: push

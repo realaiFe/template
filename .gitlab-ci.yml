@@ -4,7 +4,7 @@ variables:
   # 定义npm源
   NPM_REG: 'https://registry.npm.taobao.org'
   # 镜像地址
-  DOCKER_IMAGE: 'reg.real-ai.cn/hk-equipment/hk-equipment-fe'
+  DOCKER_IMAGE: 'reg.real-ai.cn/frontend-demo/fe'
   # 镜像tag
   DOCKER_TAG: 'v1.0'
   # 目标服务器
