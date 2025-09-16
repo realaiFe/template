@@ -1,0 +1,20 @@
+build_image:
+  image: ${DOCKER_REG}/public/docker:19.03.8
+  services:
+    - name: ${DOCKER_REG}/public/docker:19.03.8-dind
+  stage: buildImage(打包镜像)
+  only:
+    refs:
+      - deploy
+      - tags
+  tags:
+    - online
+  needs:
+    - job: build_dist
+  cache: {}
+  before_script:
+    - source .gitlab/scripts/build_image.sh
+  script:
+    - docker_build
+  dependencies:
+    - build_dist

@@ -1,0 +1,122 @@
+# For more information on configuration, see:
+#   * Official English Documentation: http://nginx.org/en/docs/
+#   * Official Russian Documentation: http://nginx.org/ru/docs/
+
+user root;
+worker_processes 4;
+error_log /var/log/nginx/error.log;
+pid /run/nginx.pid;
+
+# Load dynamic modules. See /usr/share/nginx/README.dynamic.
+include /usr/share/nginx/modules/*.conf;
+include /root/nginx/conf.ds/*.conf;
+
+events {
+    worker_connections 1024;
+}
+
+http {
+    gzip on;
+    gzip_min_length  1k;
+    gzip_buffers     4 16k;
+    gzip_http_version 1.1;
+    gzip_comp_level 9;
+    gzip_types       text/plain application/x-javascript text/css application/xml text/javascript application/javascript application/json;
+    gzip_disable "MSIE [1-6]\.";
+    gzip_vary on;
+
+    log_format  main  '$remote_addr - $remote_user [$time_local] "$request" '
+                      '$status $body_bytes_sent "$http_referer" '
+                      '"$http_user_agent" "$http_x_forwarded_for"';
+    access_log  /var/log/nginx/access.log  main;
+    sendfile            on;
+    tcp_nopush          on;
+    tcp_nodelay         on;
+    keepalive_timeout   600;
+    proxy_connect_timeout       600;
+    proxy_send_timeout          600;
+    proxy_read_timeout          600;
+    send_timeout                600;
+    types_hash_max_size 2048;
+    client_max_body_size 2048m;
+
+    include             /etc/nginx/mime.types;
+    default_type        application/octet-stream;
+
+    server {
+        listen       80;
+        server_name  _;
+        # Load configuration files for the default server block.
+        include /etc/nginx/default.d/*.conf;
+
+        # frontend
+        location  / {
+            add_header Access-Control-Allow-Origin *;
+            add_header Access-Control-Allow-Methods 'GET,POST,PUT,DELETE,OPTIONS';
+            add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization';
+            add_header Access-Control-Allow-Credentials: true;
+            add_header Cache-Control "no-cache, no-store, must-revalidate";
+            add_header Pragma "no-cache";
+            add_header Expires 0;
+            root   /opt/frontend-demo/fe;
+            index  index.html index.htm;
+            try_files $uri $uri/ /index.html;
+        }
+
+        # HTML：不缓存
+        location ~* \.html$ {
+            root   /opt/frontend-demo/fe;
+            index  index.html index.htm;
+            try_files $uri $uri/ /index.html;
+            add_header Cache-Control "no-store, no-cache, must-revalidate, proxy-revalidate, max-age=0" always;
+            add_header Pragma "no-cache" always;
+            add_header Expires 0 always;
+        }
+
+        # 静态资源：带 hash 的 js/css/png/webp/woff 等
+        location ~* \.(?:js|css|woff2?|ttf|eot|otf|svg|ico|png|jpg|jpeg|gif|webp)$ {
+            root   /opt/frontend-demo/fe;
+            index  index.html index.htm;
+            try_files $uri $uri/ /index.html;
+            add_header Cache-Control "public, max-age=31536000, immutable" always;
+            access_log off;
+            log_not_found off;
+        }
+
+        location ^~ /api/ {
+            #proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+            #add_header Access-Control-Allow-Origin *;
+            #add_header Access-Control-Allow-Methods 'GET, POST,PUT,DELETE, OPTIONS';
+            #add_header Access-Control-Allow-Headers 'DNT,X-Mx-ReqToken,Keep-Alive,User-Agent,X-Requested-With,If-Modified-Since,Cache-Control,Content-Type,Authorization';
+            #add_header Access-Control-Allow-Credentials: true;
+            proxy_set_header   X-Real-IP $remote_addr;
+            proxy_set_header   X-Real-PORT $remote_port;
+            proxy_set_header Origin '';
+            add_header Access-Control-Allow-Credentials true;
+            add_header Access-Control-Allow-Headers $http_access_control_request_headers;
+            add_header Access-Control-Allow-Methods POST,GET,OPTIONS,DELETE,PUT,HEAD,PATCH;
+            add_header Access-Control-Allow-Origin $http_origin;
+            add_header Access-Control-Expose-Headers $http_access_control_request_headers;
+            proxy_set_header Upgrade $http_upgrade;
+            proxy_set_header Connection "upgrade";
+            proxy_http_version 1.1;
+            chunked_transfer_encoding off;
+            proxy_cache off;
+            proxy_pass ${PROXY_PASS};
+        }
+
+
+
+
+
+
+
+        error_page 404 /404.html;
+            location = /40x.html {
+        }
+
+        error_page 500 502 503 504 /50x.html;
+            location = /50x.html {
+        }
+    }
+}

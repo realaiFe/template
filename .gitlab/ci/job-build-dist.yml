@@ -1,0 +1,22 @@
+build_dist:
+  image: ${DOCKER_REG}/public/node:22.5-alpine3.19
+  stage: 'build(构建)'
+  tags:
+    - online
+  only:
+    refs:
+      - deploy
+      - tags
+  cache:
+    key: ${CI_BUILD_REF_NAME}
+    paths:
+      - node_modules/
+    policy: pull
+  before_script:
+    - source .gitlab/scripts/build_dist.sh
+  script:
+    - build_dist
+  artifacts:
+    name: '$CI_COMMIT_REF_NAME'
+    paths:
+      - dist/
