@@ -1,14 +1,16 @@
 import { defineConfig } from '@umijs/max';
+import proxy from './configs/proxy';
 
 export default defineConfig({
   antd: {},
-  // access: {},
+  access: {},
   model: {},
   initialState: {},
   request: {},
   layout: {
     title: '@umijs/max',
   },
+  proxy,
   routes: [
     {
       path: '/',
