@@ -1,0 +1,21 @@
+#!/usr/bin/env sh
+. "$(dirname "$0")/_/husky.sh"
+
+MERGE_REGEX="^(Merge)"
+REVERT_REGEX="^(Revert)"
+COMMON_REGEX="^((需求|修改|删除|修复|重构|优化|格式):)"
+
+#获得Commit提交信息
+commit_msg=$(cat "${1:?没有Commit信息}")
+
+if [[ $commit_msg =~ $COMMON_REGEX ]] || [[ $commit_msg =~ $REVERT_REGEX ]] || [[ $commit_msg =~ $MERGE_REGEX ]]
+	then
+	echo 'Commit match'
+else
+	cat <<EOF
+
+# 提交失败: Commit格式不合格，请按照规范提交!!!
+
+EOF
+exit -1
+fi
