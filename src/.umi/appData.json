@@ -32,33 +32,20 @@
   },
   "pkgPath": "/Users/realai/Desktop/frontend-demo/package.json",
   "plugins": {
-    "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/servicePlugin": {
+    "./node_modules/@umijs/core/dist/service/servicePlugin": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "preset",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/servicePlugin.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/core/dist/service/servicePlugin.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/servicePlugin",
+      "id": "./node_modules/@umijs/core/dist/service/servicePlugin",
       "key": "servicePlugin"
     },
     "@umijs/preset-umi": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 10
-      },
-      "enableBy": "register",
-      "type": "preset",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/index.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "@umijs/preset-umi",
-      "key": "umi"
-    },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/preset": {
       "config": {},
       "time": {
         "hooks": {},
@@ -66,12 +53,25 @@
       },
       "enableBy": "register",
       "type": "preset",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/preset.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/index.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/preset",
+      "id": "@umijs/preset-umi",
+      "key": "umi"
+    },
+    "./node_modules/@umijs/max/dist/preset": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 3
+      },
+      "enableBy": "register",
+      "type": "preset",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/preset.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/max/dist/preset",
       "key": "preset"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/registerMethods": {
+    "./node_modules/@umijs/preset-umi/dist/registerMethods": {
       "config": {},
       "time": {
         "hooks": {
@@ -79,13 +79,13 @@
             0
           ]
         },
-        "register": 6
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/registerMethods.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/registerMethods.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/registerMethods",
+      "id": "./node_modules/@umijs/preset-umi/dist/registerMethods",
       "key": "registerMethods"
     },
     "@umijs/did-you-know": {
@@ -93,19 +93,19 @@
       "time": {
         "hooks": {
           "onStart": [
-            2
+            1
           ]
         },
         "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+did-you-know@1.0.4/node_modules/@umijs/did-you-know/dist/plugin.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/did-you-know/dist/plugin.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
       "id": "@umijs/did-you-know",
       "key": "umijsDidYouKnow"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/404/404": {
+    "./node_modules/@umijs/preset-umi/dist/features/404/404": {
       "config": {},
       "time": {
         "hooks": {
@@ -113,46 +113,16 @@
             0
           ]
         },
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/404/404.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/404/404",
-      "key": "404"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
-      "config": {},
-      "time": {
-        "hooks": {},
         "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/404/404.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
-      "key": "aiDev"
+      "id": "./node_modules/@umijs/preset-umi/dist/features/404/404",
+      "key": "404"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/appData": {
-      "config": {},
-      "time": {
-        "hooks": {
-          "modifyAppData": [
-            16
-          ]
-        },
-        "register": 15
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/appData",
-      "key": "appData"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
+    "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev": {
       "config": {},
       "time": {
         "hooks": {},
@@ -160,12 +130,42 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/aiDev/aiDev",
+      "key": "aiDev"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/appData/appData": {
+      "config": {},
+      "time": {
+        "hooks": {
+          "modifyAppData": [
+            14
+          ]
+        },
+        "register": 19
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/appData/appData.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/appData/appData",
+      "key": "appData"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/appData/umiInfo.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/appData/umiInfo",
       "key": "umiInfo"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/check": {
+    "./node_modules/@umijs/preset-umi/dist/features/check/check": {
       "config": {},
       "time": {
         "hooks": {
@@ -176,16 +176,16 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/check.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/check/check.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/check",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/check/check",
       "key": "check"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/babel722": {
+    "./node_modules/@umijs/preset-umi/dist/features/check/babel722": {
       "config": {},
       "time": {
         "hooks": {
@@ -193,29 +193,29 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/check/babel722.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/check/babel722",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/check/babel722",
       "key": "babel722"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
+    "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/codeSplitting/codeSplitting",
       "key": "codeSplitting"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
+    "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins": {
       "config": {},
       "time": {
         "hooks": {
@@ -223,13 +223,13 @@
             0
           ]
         },
-        "register": 6
+        "register": 7
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/configPlugins/configPlugins",
       "key": "configPlugins"
     },
     "virtual: config-title": {
@@ -1058,10 +1058,10 @@
       "config": {
         "default": {
           "umi": "@@/exports",
-          "react": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react@18.3.1/node_modules/react",
-          "react-dom": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom",
-          "react-router": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react-router@6.3.0_react@18.3.1/node_modules/react-router",
-          "react-router-dom": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react-router-dom@6.3.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/react-router-dom"
+          "react": "/Users/realai/Desktop/frontend-demo/node_modules/react",
+          "react-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-dom",
+          "react-router": "/Users/realai/Desktop/frontend-demo/node_modules/react-router",
+          "react-router-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-router-dom"
         }
       },
       "type": "plugin",
@@ -1071,7 +1071,7 @@
         "register": 0
       }
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
+    "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1079,81 +1079,81 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/crossorigin/crossorigin",
       "key": "crossorigin"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
+    "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand": {
       "config": {},
       "time": {
         "hooks": {
           "onStart": [
-            0
+            1
           ]
         },
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
-      "key": "depsOnDemand"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
-      "config": {},
-      "time": {
-        "hooks": {},
         "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
-      "key": "devTool"
+      "id": "./node_modules/@umijs/preset-umi/dist/features/depsOnDemand/depsOnDemand",
+      "key": "depsOnDemand"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
+    "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 52
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/devTool/devTool.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/devTool/devTool",
+      "key": "devTool"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 61
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/esbuildHelperChecker/esbuildHelperChecker",
       "key": "esbuildHelperChecker"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esmi/esmi": {
+    "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 63
+        "register": 59
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/esmi/esmi.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/esmi/esmi",
       "key": "esmi"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
+    "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 14
+        "register": 19
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/exportStatic/exportStatic",
       "key": "exportStatic"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/favicons/favicons": {
+    "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons": {
       "config": {},
       "time": {
         "hooks": {
@@ -1161,16 +1161,16 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/favicons/favicons.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/favicons/favicons",
       "key": "favicons"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
+    "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1178,12 +1178,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/helmet/helmet.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/helmet/helmet",
       "key": "helmet"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/icons/icons": {
+    "./node_modules/@umijs/preset-umi/dist/features/icons/icons": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1191,24 +1191,24 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/icons/icons.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/icons/icons",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/icons/icons",
       "key": "icons"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mock/mock": {
+    "./node_modules/@umijs/preset-umi/dist/features/mock/mock": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 22
+        "register": 24
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mock/mock",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mock/mock",
       "key": "mock"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
+    "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1216,24 +1216,24 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/mpa/mpa.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mpa/mpa",
       "key": "mpa"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/okam/okam": {
+    "./node_modules/@umijs/preset-umi/dist/features/okam/okam": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/okam/okam",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/okam/okam",
       "key": "okam"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
+    "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1241,25 +1241,25 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/overrides/overrides.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/overrides/overrides",
       "key": "overrides"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
+    "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/phantomDependency/phantomDependency",
       "key": "phantomDependency"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill": {
+    "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill": {
       "config": {},
       "time": {
         "hooks": {
@@ -1270,77 +1270,77 @@
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill",
       "key": "polyfill"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
+    "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/polyfill/publicPathPolyfill",
       "key": "publicPathPolyfill"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/prepare/prepare": {
+    "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/prepare/prepare.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/prepare/prepare",
       "key": "prepare"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
+    "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routePrefetch/routePrefetch",
       "key": "routePrefetch"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise": {
+    "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/stagewise/stagewise",
       "key": "stagewise"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
+    "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/terminal/terminal.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/terminal/terminal",
       "key": "terminal"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
+    "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1348,12 +1348,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/tmpFiles",
       "key": "tmpFiles"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
+    "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1361,50 +1361,37 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/clientLoader/clientLoader",
       "key": "clientLoader"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps": {
+    "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routeProps/routeProps",
       "key": "routeProps"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ssr/ssr": {
+    "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/ssr/ssr.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/ssr/ssr",
       "key": "ssr"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 2
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
-      "key": "configTypes"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/transform/transform": {
+    "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1412,75 +1399,88 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/transform/transform",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/tmpFiles/configTypes",
+      "key": "configTypes"
+    },
+    "./node_modules/@umijs/preset-umi/dist/features/transform/transform": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/transform/transform.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/transform/transform",
       "key": "transform"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport": {
+    "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 4
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/lowImport/lowImport",
       "key": "lowImport"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/vite/vite": {
+    "./node_modules/@umijs/preset-umi/dist/features/vite/vite": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/vite/vite.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/vite/vite",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/vite/vite",
       "key": "vite"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
+    "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 3
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute",
       "key": "apiRoute"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
+    "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 14
+        "register": 16
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/monorepo/redirect",
       "key": "monorepoRedirect"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/test/test": {
+    "./node_modules/@umijs/preset-umi/dist/features/test/test": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/test/test.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/test/test.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/test/test",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/test/test",
       "key": "test"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
+    "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1488,12 +1488,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/clickToComponent/clickToComponent",
       "key": "clickToComponent"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/legacy/legacy": {
+    "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1501,12 +1501,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/legacy/legacy.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/legacy/legacy",
       "key": "legacy"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
+    "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1514,24 +1514,24 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/classPropertiesLoose/classPropertiesLoose",
       "key": "classPropertiesLoose"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/webpack/webpack": {
+    "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/webpack/webpack",
       "key": "preset-umi:webpack"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/swc/swc": {
+    "./node_modules/@umijs/preset-umi/dist/features/swc/swc": {
       "config": {},
       "time": {
         "hooks": {
@@ -1543,24 +1543,24 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/swc/swc.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/swc/swc",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/swc/swc",
       "key": "swc"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ui/ui": {
+    "./node_modules/@umijs/preset-umi/dist/features/ui/ui": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 2
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ui/ui",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/ui/ui",
       "key": "ui"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mako/mako": {
+    "./node_modules/@umijs/preset-umi/dist/features/mako/mako": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1568,49 +1568,49 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/mako/mako.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mako/mako",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/mako/mako",
       "key": "mako"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
+    "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian",
       "key": "hmrGuardian"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
+    "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/routePreloadOnLoad/routePreloadOnLoad",
       "key": "routePreloadOnLoad"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/forget/forget": {
+    "./node_modules/@umijs/preset-umi/dist/features/forget/forget": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/forget/forget.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/forget/forget",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/forget/forget",
       "key": "forget"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
+    "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1618,12 +1618,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/features/bundler/bundler.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
+      "id": "./node_modules/@umijs/preset-umi/dist/features/bundler/bundler",
       "key": "preset-umi:bundler"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/build": {
+    "./node_modules/@umijs/preset-umi/dist/commands/build": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1631,63 +1631,63 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/build.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/build.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/build",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/build",
       "key": "build"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/config/config": {
+    "./node_modules/@umijs/preset-umi/dist/commands/config/config": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 28
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/config/config.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/config/config",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/config/config",
       "key": "config"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
+    "./node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 23
+        "register": 16
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/dev/dev",
       "key": "dev"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/help": {
+    "./node_modules/@umijs/preset-umi/dist/commands/help": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/help.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/help.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/help",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/help",
       "key": "help"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/lint": {
+    "./node_modules/@umijs/preset-umi/dist/commands/lint": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/lint.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/lint.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/lint",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/lint",
       "key": "lint"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/setup": {
+    "./node_modules/@umijs/preset-umi/dist/commands/setup": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1695,233 +1695,51 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/setup.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/setup.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/setup",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/setup",
       "key": "setup"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/deadcode": {
+    "./node_modules/@umijs/preset-umi/dist/commands/deadcode": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/deadcode.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/deadcode",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/deadcode",
       "key": "deadcode"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/version": {
+    "./node_modules/@umijs/preset-umi/dist/commands/version": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/version.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/version.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/version",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/version",
       "key": "version"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/page": {
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/page": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/page.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/page",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/page",
       "key": "generator:page"
     },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/prettier": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
-      "key": "generator:prettier"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
-      "key": "generator:tsconfig"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/jest",
-      "key": "generator:jest"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
-      "key": "generator:tailwindcss"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/dva",
-      "key": "generator:dva"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/component": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/component",
-      "key": "generator:component"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/mock",
-      "key": "generator:mock"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
-      "key": "generator:cypress"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/api": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/api",
-      "key": "generator:api"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
-      "key": "generator:precommit"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/plugin": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/plugin",
-      "key": "command:plugin"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/verify-commit",
-      "key": "verifyCommit"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/preview": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 17
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/preview.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/preview",
-      "key": "preview"
-    },
-    "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
-      "key": "mfsu-cli"
-    },
-    "@umijs/plugin-run": {
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1929,25 +1747,207 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugin-run@4.4.12/node_modules/@umijs/plugin-run/dist/index.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/prettier.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "@umijs/plugin-run",
-      "key": "run"
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/prettier",
+      "key": "generator:prettier"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/access": {
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tsconfig",
+      "key": "generator:tsconfig"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/jest": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/jest.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/jest",
+      "key": "generator:jest"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/tailwindcss",
+      "key": "generator:tailwindcss"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/dva": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/dva.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/dva",
+      "key": "generator:dva"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/component": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/component.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/component",
+      "key": "generator:component"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/mock": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/mock.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/mock",
+      "key": "generator:mock"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/cypress.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/cypress",
+      "key": "generator:cypress"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/api": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/api.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/api",
+      "key": "generator:api"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/generators/precommit.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/generators/precommit",
+      "key": "generator:precommit"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/plugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/plugin.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/plugin",
+      "key": "command:plugin"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/verify-commit": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 0
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/verify-commit.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/verify-commit",
+      "key": "verifyCommit"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/preview": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 17
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/preview.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/preview",
+      "key": "preview"
+    },
+    "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/preset-umi/dist/commands/mfsu/mfsu",
+      "key": "mfsu-cli"
+    },
+    "@umijs/plugin-run": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugin-run/dist/index.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "@umijs/plugin-run",
+      "key": "run"
+    },
+    "./node_modules/@umijs/plugins/dist/access": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 2
+      },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/access.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/access.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/access",
+      "id": "./node_modules/@umijs/plugins/dist/access",
       "key": "access"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/analytics": {
+    "./node_modules/@umijs/plugins/dist/analytics": {
       "config": {
         "onChange": "reload"
       },
@@ -1956,12 +1956,12 @@
         "register": 0
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/analytics.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/analytics.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/analytics",
+      "id": "./node_modules/@umijs/plugins/dist/analytics",
       "key": "analytics"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/antd": {
+    "./node_modules/@umijs/plugins/dist/antd": {
       "config": {},
       "time": {
         "hooks": {
@@ -1972,15 +1972,15 @@
             0
           ]
         },
-        "register": 4
+        "register": 3
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/antd.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/antd.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/antd",
+      "id": "./node_modules/@umijs/plugins/dist/antd",
       "key": "antd"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/dva": {
+    "./node_modules/@umijs/plugins/dist/dva": {
       "config": {},
       "time": {
         "hooks": {},
@@ -1988,25 +1988,25 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/dva.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/dva.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/dva",
+      "id": "./node_modules/@umijs/plugins/dist/dva",
       "key": "dva"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/initial-state": {
+    "./node_modules/@umijs/plugins/dist/initial-state": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/initial-state.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/initial-state.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/initial-state",
+      "id": "./node_modules/@umijs/plugins/dist/initial-state",
       "key": "initialState"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/layout": {
+    "./node_modules/@umijs/plugins/dist/layout": {
       "config": {
         "onChange": "regenerateTmpFiles"
       },
@@ -2016,35 +2016,35 @@
             0
           ],
           "addLayouts": [
-            0
+            1
           ],
           "modifyAppData": [
-            1
+            0
           ]
         },
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/layout.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/layout.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/layout",
+      "id": "./node_modules/@umijs/plugins/dist/layout",
       "key": "layout"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/locale": {
+    "./node_modules/@umijs/plugins/dist/locale": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/locale.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/locale.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/locale",
+      "id": "./node_modules/@umijs/plugins/dist/locale",
       "key": "locale"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/mf": {
+    "./node_modules/@umijs/plugins/dist/mf": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2052,25 +2052,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/mf.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/mf.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/mf",
+      "id": "./node_modules/@umijs/plugins/dist/mf",
       "key": "mf"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/model": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 0
-      },
-      "enableBy": "config",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/model.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/model",
-      "key": "model"
-    },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/moment2dayjs": {
+    "./node_modules/@umijs/plugins/dist/model": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2078,75 +2065,88 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/moment2dayjs.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/model.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/moment2dayjs",
-      "key": "moment2dayjs"
+      "id": "./node_modules/@umijs/plugins/dist/model",
+      "key": "model"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun": {
+    "./node_modules/@umijs/plugins/dist/moment2dayjs": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 0
+      },
+      "enableBy": "config",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/moment2dayjs.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/plugins/dist/moment2dayjs",
+      "key": "moment2dayjs"
+    },
+    "./node_modules/@umijs/plugins/dist/qiankun": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/qiankun.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun",
       "key": "qiankun"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/master": {
+    "./node_modules/@umijs/plugins/dist/qiankun/master": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/master.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/qiankun/master.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/master",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun/master",
       "key": "qiankun-master"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/slave": {
+    "./node_modules/@umijs/plugins/dist/qiankun/slave": {
       "config": {},
       "time": {
         "hooks": {},
         "register": 1
       },
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/slave.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/qiankun/slave.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/qiankun/slave",
+      "id": "./node_modules/@umijs/plugins/dist/qiankun/slave",
       "key": "qiankun-slave"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/react-query": {
+    "./node_modules/@umijs/plugins/dist/react-query": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/react-query.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/react-query.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/react-query",
+      "id": "./node_modules/@umijs/plugins/dist/react-query",
       "key": "reactQuery"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/request": {
+    "./node_modules/@umijs/plugins/dist/request": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/request.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/request.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/request",
+      "id": "./node_modules/@umijs/plugins/dist/request",
       "key": "request"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/styled-components": {
+    "./node_modules/@umijs/plugins/dist/styled-components": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2154,12 +2154,12 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/styled-components.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/styled-components.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/styled-components",
+      "id": "./node_modules/@umijs/plugins/dist/styled-components",
       "key": "styledComponents"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/tailwindcss": {
+    "./node_modules/@umijs/plugins/dist/tailwindcss": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2167,25 +2167,25 @@
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/tailwindcss.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/tailwindcss.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/tailwindcss",
+      "id": "./node_modules/@umijs/plugins/dist/tailwindcss",
       "key": "tailwindcss"
     },
-    "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/valtio": {
+    "./node_modules/@umijs/plugins/dist/valtio": {
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/valtio.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/plugins/dist/valtio.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/valtio",
+      "id": "./node_modules/@umijs/plugins/dist/valtio",
       "key": "valtio"
     },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAlias": {
+    "./node_modules/@umijs/max/dist/plugins/maxAlias": {
       "config": {},
       "time": {
         "hooks": {
@@ -2197,12 +2197,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAlias.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/plugins/maxAlias.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAlias",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxAlias",
       "key": "maxAlias"
     },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAppData": {
+    "./node_modules/@umijs/max/dist/plugins/maxAppData": {
       "config": {},
       "time": {
         "hooks": {
@@ -2214,25 +2214,12 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAppData.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/plugins/maxAppData.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxAppData",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxAppData",
       "key": "maxAppData"
     },
-    "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxChecker": {
-      "config": {},
-      "time": {
-        "hooks": {},
-        "register": 1
-      },
-      "enableBy": "register",
-      "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxChecker.js",
-      "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxChecker",
-      "key": "maxChecker"
-    },
-    "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/generatePlugin": {
+    "./node_modules/@umijs/max/dist/plugins/maxChecker": {
       "config": {},
       "time": {
         "hooks": {},
@@ -2240,9 +2227,22 @@
       },
       "enableBy": "register",
       "type": "plugin",
-      "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/max/dist/plugins/maxChecker.js",
       "cwd": "/Users/realai/Desktop/frontend-demo",
-      "id": "./node_modules/.pnpm/@umijs+core@4.4.12/node_modules/@umijs/core/dist/service/generatePlugin",
+      "id": "./node_modules/@umijs/max/dist/plugins/maxChecker",
+      "key": "maxChecker"
+    },
+    "./node_modules/@umijs/core/dist/service/generatePlugin": {
+      "config": {},
+      "time": {
+        "hooks": {},
+        "register": 1
+      },
+      "enableBy": "register",
+      "type": "plugin",
+      "path": "/Users/realai/Desktop/frontend-demo/node_modules/@umijs/core/dist/service/generatePlugin.js",
+      "cwd": "/Users/realai/Desktop/frontend-demo",
+      "id": "./node_modules/@umijs/core/dist/service/generatePlugin",
       "key": "generatePlugin"
     }
   },
@@ -2301,13 +2301,13 @@
     "autoCSSModules": true,
     "alias": {
       "umi": "@@/exports",
-      "react": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react@18.3.1/node_modules/react",
-      "react-dom": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom",
-      "react-router": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react-router@6.3.0_react@18.3.1/node_modules/react-router",
-      "react-router-dom": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react-router-dom@6.3.0_react-dom@18.3.1_react@18.3.1__react@18.3.1/node_modules/react-router-dom",
+      "react": "/Users/realai/Desktop/frontend-demo/node_modules/react",
+      "react-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-dom",
+      "react-router": "/Users/realai/Desktop/frontend-demo/node_modules/react-router",
+      "react-router-dom": "/Users/realai/Desktop/frontend-demo/node_modules/react-router-dom",
       "@": "/Users/realai/Desktop/frontend-demo/src",
       "@@": "/Users/realai/Desktop/frontend-demo/src/.umi",
-      "regenerator-runtime": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/regenerator-runtime@0.13.11/node_modules/regenerator-runtime",
+      "regenerator-runtime": "/Users/realai/Desktop/frontend-demo/node_modules/regenerator-runtime",
       "antd": "/Users/realai/Desktop/frontend-demo/node_modules/antd",
       "@umijs/max": "@@/exports"
     },
@@ -3301,11 +3301,11 @@
   },
   "react": {
     "version": "18.3.1",
-    "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react@18.3.1/node_modules/react"
+    "path": "/Users/realai/Desktop/frontend-demo/node_modules/react"
   },
   "react-dom": {
     "version": "18.3.1",
-    "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/react-dom@18.3.1_react@18.3.1/node_modules/react-dom"
+    "path": "/Users/realai/Desktop/frontend-demo/node_modules/react-dom"
   },
   "appJS": {
     "path": "/Users/realai/Desktop/frontend-demo/src/app.tsx",
