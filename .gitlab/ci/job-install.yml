@@ -1,5 +1,5 @@
 install_depends:
-  image: ${DOCKER_REG}/public/node:22.5-alpine3.19
+  image: ${DOCKER_REG}/public/node:22.5-alpine3.19-pnpm
   stage: 'install(依赖)'
   tags:
     - online
@@ -7,14 +7,14 @@ install_depends:
     refs:
       - deploy
     changes:
-      - yarn.lock
+      - pnpm-lock.yaml  # 改为监控 pnpm 的锁文件
   before_script:
     - source .gitlab/scripts/install.sh
   script:
-    - npm_install
+    - pnpm install --frozen-lockfile  # 使用 pnpm 安装
   cache:
     key: ${CI_BUILD_REF_NAME}
     paths:
       - node_modules/
-      - .yarn
+      - .pnpm-store  # 缓存 pnpm 存储目录
     policy: push
