@@ -3,7 +3,7 @@ source .gitlab/scripts/utils.sh
 source .gitlab/scripts/common.sh
 
 # 新增配置变量 - 可以根据实际情况调整
-CONTAINER_NAME="hk-equipment"  # 容器名称
+CONTAINER_NAME="frontend-demo"  # 容器名称
 HOST_PORT=8080                  # 主机端口
 CONTAINER_PORT=80               # 容器内部端口
 RESTART_POLICY="always"         # 重启策略
