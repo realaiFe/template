@@ -3,7 +3,7 @@
   "author": "qingmei.liu <qingmei.liu@realai.ai>",
   "scripts": {
     "dev": "max dev",
-    "build": "yarn build",
+    "build": "max build",
     "format": "prettier --cache --write .",
     "prepare": "husky",
     "postinstall": "max setup",
