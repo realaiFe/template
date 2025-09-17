@@ -49,7 +49,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "register",
       "type": "preset",
@@ -62,7 +62,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "preset",
@@ -79,7 +79,7 @@
             0
           ]
         },
-        "register": 7
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -113,7 +113,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -126,7 +126,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -140,10 +140,10 @@
       "time": {
         "hooks": {
           "modifyAppData": [
-            15
+            9
           ]
         },
-        "register": 14
+        "register": 15
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1075,7 +1075,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1092,7 +1092,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1105,7 +1105,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1118,7 +1118,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 52
+        "register": 69
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1131,7 +1131,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 58
+        "register": 51
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1161,7 +1161,7 @@
             0
           ]
         },
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1174,7 +1174,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1200,7 +1200,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 24
+        "register": 22
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/mock/mock.js",
@@ -1212,7 +1212,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1225,7 +1225,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/okam/okam.js",
@@ -1250,7 +1250,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1267,7 +1267,7 @@
             1
           ]
         },
-        "register": 2
+        "register": 1
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/polyfill/polyfill.js",
@@ -1318,7 +1318,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1331,7 +1331,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1382,7 +1382,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1395,7 +1395,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1408,7 +1408,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1421,7 +1421,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 2
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1434,7 +1434,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1447,7 +1447,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/apiRoute/apiRoute.js",
@@ -1459,7 +1459,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 14
+        "register": 15
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1484,7 +1484,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1497,7 +1497,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1510,7 +1510,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1523,7 +1523,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/webpack/webpack.js",
@@ -1539,7 +1539,7 @@
             0
           ]
         },
-        "register": 0
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1552,7 +1552,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 3
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/ui/ui.js",
@@ -1577,7 +1577,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/features/hmrGuardian/hmrGuardian.js",
@@ -1601,7 +1601,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 3
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1614,7 +1614,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1627,7 +1627,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 5
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1652,8 +1652,15 @@
     "./node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev": {
       "config": {},
       "time": {
-        "hooks": {},
-        "register": 22
+        "hooks": {
+          "modifyAppData": [
+            7
+          ],
+          "onStart": [
+            0
+          ]
+        },
+        "register": 21
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+preset-umi@4.4.12_@types+node@24.4.0_@types+react@18.3.24_lightningcss@1.22.1_ro_bdbdaf42438852698c5476b0267f33cf/node_modules/@umijs/preset-umi/dist/commands/dev/dev.js",
@@ -1678,7 +1685,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1704,7 +1711,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 6
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1717,7 +1724,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1730,7 +1737,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 2
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1834,7 +1841,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 0
+        "register": 1
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1847,7 +1854,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1899,7 +1906,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 17
+        "register": 14
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1912,7 +1919,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1925,7 +1932,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 2
       },
       "enableBy": "register",
       "type": "plugin",
@@ -1953,7 +1960,7 @@
       },
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/analytics.js",
@@ -1972,7 +1979,7 @@
             0
           ]
         },
-        "register": 3
+        "register": 6
       },
       "type": "plugin",
       "path": "/Users/realai/Desktop/frontend-demo/node_modules/.pnpm/@umijs+plugins@4.4.12_@babel+core@7.28.4_@types+react-dom@18.3.7_@types+react@18.3.24___03e150b6a774021d55a877d2e05da422/node_modules/@umijs/plugins/dist/antd.js",
@@ -1984,7 +1991,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 3
+        "register": 4
       },
       "enableBy": "config",
       "type": "plugin",
@@ -1997,7 +2004,7 @@
       "config": {},
       "time": {
         "hooks": {},
-        "register": 1
+        "register": 0
       },
       "enableBy": "config",
       "type": "plugin",
@@ -2019,7 +2026,7 @@
             0
           ],
           "modifyAppData": [
-            1
+            0
           ]
         },
         "register": 2
@@ -2222,7 +2229,11 @@
     "./node_modules/.pnpm/@umijs+max@4.4.12_@babel+core@7.28.4_@types+node@24.4.0_@types+react-dom@18.3.7_@types+_ccd94b7cddb5bc4cb64b5a2bf83e7626/node_modules/@umijs/max/dist/plugins/maxChecker": {
       "config": {},
       "time": {
-        "hooks": {},
+        "hooks": {
+          "onCheckPkgJSON": [
+            0
+          ]
+        },
         "register": 0
       },
       "enableBy": "register",
@@ -2247,7 +2258,7 @@
     }
   },
   "presets": [],
-  "name": "setup",
+  "name": "dev",
   "args": {
     "_": []
   },
@@ -3330,6 +3341,9 @@
     "tslibVersion": "2.8.1"
   },
   "faviconFiles": [],
+  "port": 8001,
+  "host": "0.0.0.0",
+  "ip": "10.1.0.161",
   "antd": {
     "pkgPath": "/Users/realai/Desktop/frontend-demo/node_modules/antd",
     "version": "5.27.3"
