@@ -4,7 +4,7 @@ source .gitlab/scripts/utils.sh
 function npm_install() {
     if [ ! -d node_modules ];then
       if [ -z "$NPM_REG" ];then
-        NPM_REG="https://registry.npm.taobao.org"
+        NPM_REG="https://registry.npmmirror.com/"
       else
         NPM_REG="$NPM_REG"
       fi

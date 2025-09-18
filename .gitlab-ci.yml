@@ -2,7 +2,7 @@ image: '${DOCKER_REG}/public/ubuntu:18.04'
 
 variables:
   # 定义npm源
-  NPM_REG: 'https://registry.npm.taobao.org'
+  NPM_REG: 'https://registry.npmmirror.com/'
   # 镜像地址
   DOCKER_IMAGE: 'reg.real-ai.cn/frontend-demo/fe'
   # 镜像tag
