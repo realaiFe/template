@@ -113,6 +113,7 @@
           "modifyRoutes": [
             0,
             0,
+            0,
             0
           ]
         },
@@ -135,7 +136,8 @@
             4,
             5,
             3,
-            2
+            2,
+            4
           ]
         },
         "register": 1
@@ -157,7 +159,8 @@
           "onGenerateFiles": [
             2,
             17,
-            9
+            9,
+            7
           ]
         },
         "register": 15
@@ -174,6 +177,7 @@
       "time": {
         "hooks": {
           "addEntryCode": [
+            0,
             0,
             0,
             0
@@ -204,9 +208,11 @@
             0,
             0,
             0,
+            0,
             0
           ],
           "onCheckCode": [
+            0,
             0,
             0,
             0,
@@ -1251,6 +1257,15 @@
             0,
             0,
             0,
+            0,
+            4,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
+            0,
             0
           ]
         },
@@ -1270,9 +1285,11 @@
           "onGenerateFiles": [
             1,
             1,
-            1
+            1,
+            0
           ],
           "addRuntimePlugin": [
+            0,
             0,
             0,
             0
@@ -1344,9 +1361,12 @@
           "onGenerateFiles": [
             0,
             0,
+            0,
             0
           ],
           "addEntryImports": [
+            0,
+            0,
             0,
             0,
             0,
@@ -1388,9 +1408,12 @@
           "onGenerateFiles": [
             59,
             28,
-            22
+            22,
+            10
           ],
           "addPolyfillImports": [
+            0,
+            0,
             0,
             0,
             0,
@@ -1417,6 +1440,8 @@
             0,
             0,
             0,
+            0,
+            0,
             0
           ]
         },
@@ -1435,6 +1460,7 @@
         "hooks": {
           "onGenerateFiles": [
             48,
+            0,
             0,
             0
           ]
@@ -1481,6 +1507,7 @@
           "onGenerateFiles": [
             0,
             0,
+            0,
             0
           ],
           "addBeforeMiddlewares": [
@@ -1506,7 +1533,9 @@
             7,
             5,
             5,
-            5
+            5,
+            3,
+            3
           ]
         },
         "register": 2
@@ -1563,7 +1592,8 @@
           "onGenerateFiles": [
             290,
             11,
-            6
+            6,
+            8
           ]
         },
         "register": 2
@@ -1650,6 +1680,7 @@
           "onGenerateFiles": [
             1,
             1,
+            0,
             0
           ]
         },
@@ -2133,12 +2164,14 @@
           "addRuntimePlugin": [
             0,
             0,
+            0,
             0
           ],
           "onGenerateFiles": [
             1,
             0,
-            1
+            1,
+            0
           ],
           "addTmpGenerateWatcherPaths": [
             0
@@ -2184,9 +2217,12 @@
             0,
             0,
             0,
+            0,
+            0,
             0
           ],
           "addRuntimePlugin": [
+            0,
             0,
             0,
             0
@@ -2194,12 +2230,14 @@
           "addRuntimePluginKey": [
             0,
             0,
+            0,
             0
           ],
           "onGenerateFiles": [
             1,
             1,
-            0
+            0,
+            1
           ],
           "addExtraBabelPlugins": [
             0
@@ -2236,9 +2274,11 @@
           "addRuntimePlugin": [
             0,
             0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
             0,
             0,
             0
@@ -2246,9 +2286,11 @@
           "onGenerateFiles": [
             1,
             0,
+            0,
             0
           ],
           "addExtraModels": [
+            0,
             0,
             0,
             0
@@ -2276,6 +2318,7 @@
           "addLayouts": [
             0,
             0,
+            0,
             0
           ],
           "modifyAppData": [
@@ -2284,9 +2327,11 @@
           "addRuntimePlugin": [
             0,
             0,
+            0,
             0
           ],
           "addRuntimePluginKey": [
+            0,
             0,
             0,
             0
@@ -2294,7 +2339,8 @@
           "onGenerateFiles": [
             3,
             4,
-            3
+            3,
+            2
           ]
         },
         "register": 3
@@ -2339,12 +2385,14 @@
           "addRuntimePlugin": [
             0,
             0,
+            0,
             0
           ],
           "onGenerateFiles": [
             15,
             8,
-            11
+            11,
+            7
           ],
           "addTmpGenerateWatcherPaths": [
             0
@@ -2377,6 +2425,7 @@
       "time": {
         "hooks": {
           "addRuntimePluginKey": [
+            0,
             0,
             0,
             0
@@ -2435,12 +2484,14 @@
           "addRuntimePluginKey": [
             0,
             0,
+            0,
             0
           ],
           "onGenerateFiles": [
             4,
             2,
-            4
+            4,
+            1
           ]
         },
         "register": 0
@@ -2470,6 +2521,8 @@
       "time": {
         "hooks": {
           "addEntryImports": [
+            0,
+            0,
             0,
             0,
             0,
@@ -3595,7 +3648,7 @@
       "file": "@/pages/Home/index.tsx",
       "id": "2",
       "absPath": "/home",
-      "__content": "import Guide from '@/components/Guide';\nimport { trim } from '@/utils/format';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useModel } from '@umijs/max';\nimport styles from './index.less';\n\nconst HomePage: React.FC = () => {\n  const { name } = useModel('global');\n  return (\n    <PageContainer ghost>\n      <div className={styles.container}>\n        {name}\n      </div>\n    </PageContainer>\n  );\n};\nexport default HomePage;\n",
+      "__content": "import Guide from '@/components/Guide';\nimport { trim } from '@/utils/format';\nimport { PageContainer } from '@ant-design/pro-components';\nimport { useModel } from '@umijs/max';\nimport styles from './index.less';\n\nconst HomePage: React.FC = () => {\n  const { name } = useModel('global');\n  return (\n    <PageContainer ghost>\n      <div className='text-center'>\n        {name}\n      </div>\n    </PageContainer>\n  );\n};\nexport default HomePage;\n",
       "__isJSFile": true,
       "__absFile": "/Users/realai/Desktop/frontend-demo/src/pages/Home/index.tsx"
     },
@@ -5279,7 +5332,7 @@
             "format": "esm"
           },
           "src/pages/Home/index.tsx": {
-            "bytes": 443,
+            "bytes": 444,
             "imports": [
               {
                 "path": "@/components/Guide",
