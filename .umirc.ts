@@ -20,6 +20,8 @@ export default defineConfig({
       name: '首页',
       path: '/home',
       component: './Home',
+      hideInMenu: true,
+      layout: false,
     },
   ],
   npmClient: 'pnpm',

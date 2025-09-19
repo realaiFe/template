@@ -1,3 +1,11 @@
-# README
+# 大屏配置相关
 
-`@umijs/max` 模板项目，更多功能参考 [Umi Max 简介](https://umijs.org/docs/max/introduce)
+## postcss
+
+根据设计稿宽度可以修改postcss.config.js中的相关配置
+
+![alt text](./src/assets/image/image.png)
+
+## hooks
+
+配置了 useAutoScale  可以监听视口的大小
