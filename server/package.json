@@ -1,0 +1,20 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "dependencies": {
+    "base-64": "^1.0.0",
+    "koa": "^2.13.4",
+    "koa-proxies": "^0.12.2",
+    "koa-send": "^5.0.1",
+    "koa-static": "^5.0.0",
+    "utf8": "^3.0.0"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.13.5"
+  },
+  "scripts": {
+    "start": "pm2 start pm2.config.js",
+    "start:public": "pm2 start pm2.config.js --env public",
+    "log": "pm2 logs"
+  }
+}
